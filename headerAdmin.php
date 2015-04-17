@@ -22,21 +22,21 @@
             <a class="element1 pull-menu" href="#"></a>
             <ul class="element-menu">
                 <img src="image/logo.png" class="element span1" style="height:70px;padding-bottom:10px">
-                <li><br><a href="#profil">Home</a></li>
+                <li><br><a href="home.php">Home</a></li>
                 <li>
                     <br><a class="dropdown-toggle active" href="#">Services</a>
                     <ul class="dropdown-menu dark" data-role="dropdown">
                         <li><a href="akap.php">Antar Kota Antar Provinsi (AKAP)</a></li>
                         <li class="divider"></li>
-                        <li><a href="responsive.html">Pariwisata</a></li>
+                        <li><a href="pariwisata.php">Pariwisata</a></li>
                         <li class="divider"></li>
-                        <li><a href="layouts.html">Pengiriman Paket</a></li>
+                        <li><a href="paket.php">Pengiriman Paket</a></li>
                     </ul>
                 </li>
-                <li><br><a href="#visi">About Us</a></li>
+                <li><br><a href="about.php">About Us</a></li>
             </ul>
             <br>
-            <div class="element place-right">Logout</div>
+            <div class="element place-right"><a href="home.php">Logout</a></div>
         </div>
     </div>
     <!--end navbar-->

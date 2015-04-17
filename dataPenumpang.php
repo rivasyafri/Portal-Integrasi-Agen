@@ -7,11 +7,11 @@
             <div class="span4 offset1"><br>
                 <nav class="sidebar (light)">
                     <ul>
-                        <li class="stick bg-orange active"><a href="pemesanan.php">Pemesanan Tiket</a></li>
+                        <li class="stick bg-orange"><a href="pemesanan.php">Pemesanan Tiket</a></li>
                         <li class="stick bg-indigo"><a href="cetakTiket.php">Pencetakan Tiket</a></li>
                         <li class="stick bg-blue"><a href="daftarPenumpang.php">Daftar Penumpang</a></li>
                         <li class="stick bg-pink"><a href="pembatalan.php">Pembatalan</a></li>
-                        <li class="stick bg-green"><a href="dataPenumpang.php">Data Penumpang</a></li>
+                        <li class="stick bg-green active"><a href="dataPenumpang.php">Data Penumpang</a></li>
                     </ul>
                 </nav>
             </div>
@@ -27,13 +27,15 @@
                 <div class="span7 input-control select info-state">
                     <select name="trayek">
                           <option selected>pilih trayek</option>
-                          <option>Bandung - Semarang</option>
-                          <option>Bandung - Semarang - Jogja - Solo</option>
-                          <option>Bandung - Semarang - Jogja - Klaten</option>
-                          <option>Bandung - Wonosari</option>
-                          <option>Bandung - Wonogiri</option>
-                          <option>Bandung - Semarang - Lasem</option>
-                          <option>Bandung - Semarang - Surabaya</option>
+                          <?php
+                            require_once("model/trayek.php");
+                            $trayek = new Trayek();
+                            $result = $trayek->GetAllTrayek();
+                            while($row = mysql_fetch_object($result))
+                            {                                
+                          ?>                        
+                          <option><?php echo $row->asal; ?> - <?php echo $row->tujuan; ?></option>
+                          <?php } ?>
                     </select><br>
                 </div>
 

@@ -26,10 +26,10 @@
                 <li><br><a href="crudBus.php">Bus</a></li>
                 <li><br><a href="crudPerjalanan.php">Perjalanan</a></li>
                 <li><br><a href="crudTrayek.php">Trayek</a></li>
-                <li><br><a href="#">Laporan Keuangan</a></li>
+                <li><br><a href="keuangan.php">Laporan Keuangan</a></li>
             </ul>
             <br>
-            <div class="element place-right">Logout</div>
+            <div class="element place-right"><a href="home.php">Logout</a></div>
         </div>
     </div>
     <!--end navbar-->

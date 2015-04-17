@@ -33,7 +33,7 @@
                 <img src="image/logo-be.png">
             </div><br><br><br>
             <div class="span6 offset2"><br><br>
-                <form method="" action="">
+                <form method="" action="pemesanan.php">
                    <label>Username</label>
                     <div class="span4 input-control text info-state">
                         <input type="text" placeholder="username" id="username"/>

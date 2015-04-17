@@ -34,34 +34,33 @@
             </div>
             <div class="tile bg-lightPink ol-transparent">
                 <div class="tile-content icon">
-                    <span class="icon-bus"></span>
+                    <a href="akap.php"><span class="icon-bus"></span></a>
                 </div>
             </div>
             <div class="tile bg-darkGreen ol-transparent">
                 <div class="tile-content icon">
-                    <span class="icon-location-2"></span>
+                    <a href="pariwisata.php"><span class="icon-location-2"></span></a>
                 </div>
             </div>
             <div class="tile ol-transparent bg-indigo">
                 <div class="tile-content icon">
-                    <span class="icon-gift"></span>
+                    <a href="paket.php"><span class="icon-gift"></span></a>
                 </div>
             </div>
             <div class="tile ol-transparent bg-orange">
                 <div class="tile-content icon">
-                    <span class="icon-ticket"></span>
+                    <a href="login.php"><span class="icon-ticket"></span></a>
                 </div>
             </div>
 
             <div class="tile triple double-vertical ol-transparent bg-white">
                 <div class="tile-content">
                     <div class="panel no-border">
-                        <div class="panel-header bg-darkBlue fg-white">heading</div>
+                        <div class="panel-header bg-darkBlue fg-white">CV. Bandung Express</div>
                             <div class="panel-content fg-dark nlp nrp">
                                 <img src="image/4.jpg" class="place-left margin10 nlm ntm size2">
-                                <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's standard dummy text.
+                                <strong>CV. Bandung Express</strong>
+                                    merupakan salah satu perusahaan swasta yang bergerak pada bidang jasa transportasi penumpang maupun barang. Perusahaan ini didirikan oleh Bapak Lesmana pada tanggal 15 Maret 1973 di Jalan Garuda nomor 23, Bandung. Pada awal berdirinya, CV. Bandung Express memiliki 6 buah bus dan 2 buah truk box dengan trayek Jawa Tengah dengan melewati jalur utara (Pantura) dan jalur selatan (Nagrek). Adapun kota-kota tujuan di Jawa Tengah adalah Pekalongan, Semarang, Ambarawa, Magelang, Yogyakarta, Salatiga, Solo, dan Purworejo.
                         </div>
                     </div>
                 </div>
@@ -69,12 +68,10 @@
             <div class="tile triple double-vertical ol-transparent bg-white">
                 <div class="tile-content">
                     <div class="panel no-border">
-                        <div class="panel-header bg-darkRed fg-white">heading</div>
+                        <div class="panel-header bg-darkRed fg-white">Perkembangan Bandung Express</div>
                             <div class="panel-content fg-dark nlp nrp">
                                 <img src="image/6.jpg" class="place-left margin10 nlm ntm size2">
-                                    <strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                    Lorem Ipsum has been the industry's standard dummy text.
+                                    Seiring dengan semakin meningkatnya kebutuhan masyarakat akan jasa transportasi darat, CV. Bandung Express semakin berkembang dengan peningkatan jumlah armada bus yang awalnya hanya 6 bus menjadi 12 bus pada tahun 1980 dan 27 bus pada tahun 1987. Kemajuan ini mendorong CV. Bandung Express untuk mulai mengembangkan sayapnya di bidang bus pariwisata dan pelayanan bus angkutan karyawan pada tahun 1992. Selain itu, pada tahun 1990 perusahaan juga mulai memperluas trayek perjalanan untuk tujuan Jawa Timur yaitu kota Surabaya dan Malang, kemudian pada tahun 1991 trayek diperluas hingga ke Bali. Pada tahun 1993, CV. Bandung Express mengakusisi perusahaan otobis Super Armada untuk semakin meningkatkan pelayanan kepada konsumen, karena CV. Super Armada mempunyai trayek jurusan yang tidak dimiliki oleh CV. Bandung Express. 
                             </div>
                         </div>
                     </div>

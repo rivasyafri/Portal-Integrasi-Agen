@@ -30,11 +30,11 @@
                         <li class="divider"></li>
                         <li><a href="pariwisata.php">Pariwisata</a></li>
                         <li class="divider"></li>
-                        <li><a href="layouts.html">Pengiriman Paket</a></li>
+                        <li><a href="paket.php">Pengiriman Paket</a></li>
                     </ul>
                 </li>
                 
-                <li><br><a href="coba.html">About Us</a></li>
+                <li><br><a href="about.php">About Us</a></li>
             </ul>
             <br>
             <div class="element place-right"><a href="login.php" class="fg-white">Login</a></div>
